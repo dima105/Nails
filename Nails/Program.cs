@@ -12,11 +12,11 @@ namespace nails
             int y = Convert.ToInt32(Console.ReadLine());
             int z;
 
-            while (x > 0)
+            while (x != 0)
             {
                 x--;
                 z = y;
-                while (z > 0)
+                while (z != 0)
                 {
                     z--;
                 }
